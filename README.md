@@ -1,6 +1,6 @@
 # RestHelperLib
 
-Helperklass som tar emot en modell för att sedan göra ett abstrakt api-call och utföra operationer mot api.
+Helperklass som tar emot en modell för att sedan göra ett abstrakt api-call och utföra operationer mot api (användare behöver alltså inte hantera deserialization, httpclients och responses etc).
 Stödjer full CRUD.
 
 # Övriga funktioner
