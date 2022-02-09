@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 namespace RestHelperLib
 {
-	public class RestHelper // <T> Detta kan vidareutvecklas
+	public class RestHelper
 	{
 		private static readonly HttpClient client = new HttpClient();
 		private static readonly string api = "{APISTRÄNG}";
