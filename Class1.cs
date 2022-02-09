@@ -8,11 +8,8 @@ namespace RestHelperLib
 {
 	public class RestHelper // <T> Detta kan vidareutvecklas
 	{
-		// Skapar en statisk httpclient som kan användas genom hela projektet.
 		private static readonly HttpClient client = new HttpClient();
-		// TODO, kom på ett sätt att hantera apisträng så att helpern inte är låst till denna specifika API
-		// Connectionstring till api.
-		private static readonly string api = "http://informatik12.ei.hv.se/grupp5v2/api/";
+		private static readonly string api = "{APISTRÄNG}";
 
 		// API / GET
 		public static async Task<List<T>> ApiGet<T>(string apiPath)
